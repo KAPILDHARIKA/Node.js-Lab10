@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Logout Screen</title>
+   <link rel="stylesheet" href="/public/site.css"  type="text/css" >
+</head>
+<body>
+<table class="section1">
+  <tr>
+    <th>{{Matter.username}}</th>
+    <td class="logout"><a href="/logout">If Not {{Matter.username}}? Please click here to logout!.</a></td>
+  </tr>
+
+  <tr>
+    <td>ID:</td>
+    <td class="data">{{Matter._id}}</td>
+  </tr>
+
+  <tr>
+    <td>Username:</td>
+    <td class="data">{{Matter.username}}</td>
+  </tr>
+  
+  <tr>
+    <td>First Name:</td>
+    <td class="data">{{Matter.firstName}}</td>
+  </tr>
+  <tr>
+    <td>Last Name:</td>
+    <td class="data">{{Matter.lastName}}</td>
+  </tr>
+  <tr>
+    <td>Profession:</td>
+    <td class="data">{{Matter.profession}}</td>
+  </tr>
+  <tr>
+    <td>Bio:</td>
+    <td class="data">{{Matter.bio}}</td>
+  </tr>
+</table>
+</body>
+</html>

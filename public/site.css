@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 14pt;
+}
+
+.headerTag {
+    height: 50px;
+    width: 200;
+    text-shadow: 2px 2px;
+    text-align: center;
+    background-color: rgb(163, 80, 173);
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        background-color: red, white;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    margin: 15px;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    background-image: linear-gradient(white, rgb(131, 177, 179));
+    background-color: rgb(235, 238, 241);
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+image {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(248, 240, 240);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #afafaf;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+    color: rgb(43, 49, 46);
+}
+
+footer {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: rgb(98, 156, 223);
+}
+
+.is-prime {
+    color: #00E676
+}
+
+.not-prime {
+    color: #FF3D00
+}
+
+.img {
+    background-image: url("/Users/dharikapil/Downloads/photo-1565811653732-eb5f55e72e25.jpg");
+}
+
+.post {
+    width: 75%;
+    border-bottom: 1px dashed #333;
+}
+
+.data {
+    color: #6e2d2d;
+}
+
+.new-post-form {
+    max-width: 300px;
+}
+
+.new-post-form .full-width-input {
+    display: block;
+    min-height: 3em;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.logout {
+    color: #382737;
+}
+
+label {
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.error-list li {
+    color: #ff0000;
+}
+
+.not-found {
+    color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.author-link,
+.author-link:link {
+    color: #228b22;
+}
+
+.author-link:visited {
+    font-style: italic;
+}
+
+.author-link:hover {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.author-link:active {
+    color: #ff0000;
+}
